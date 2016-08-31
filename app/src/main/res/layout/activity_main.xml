@@ -9,6 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="nypdavid.instant.MainActivity">
 
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,11 +20,14 @@
         android:onClick="app_list_click"
         />
 
-    <ListView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/button" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/positionView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
 
 </RelativeLayout>
